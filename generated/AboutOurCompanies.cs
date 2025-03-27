@@ -192,12 +192,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END SkipToMainContent ---
@@ -266,12 +260,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -342,12 +330,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END Search ---
@@ -416,12 +398,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -492,12 +468,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END Link2 ---
@@ -566,12 +536,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -642,12 +606,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END Back ---
@@ -716,12 +674,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -792,12 +744,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END OurServices ---
@@ -866,12 +812,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -942,12 +882,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END OurBeliefsAndValues ---
@@ -1016,12 +950,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -1092,12 +1020,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END TheQuilterFoundation ---
@@ -1166,12 +1088,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -1242,12 +1158,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END OurBusinessModelAndStrategy2 ---
@@ -1316,12 +1226,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -1392,12 +1296,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END QuilterLeadership2 ---
@@ -1466,12 +1364,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -1542,12 +1434,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END GovernanceFramework ---
@@ -1616,12 +1502,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -1692,12 +1572,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END BoardCommittees ---
@@ -1766,12 +1640,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -1842,12 +1710,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END ResponsibleInvestment2 ---
@@ -1916,12 +1778,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -1992,12 +1848,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END ReportsAndStatements ---
@@ -2066,12 +1916,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -2142,12 +1986,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END InvestorRelations ---
@@ -2216,12 +2054,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -2292,12 +2124,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END InvestorRelations2 ---
@@ -2366,12 +2192,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -2442,12 +2262,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END StockExchangeAnnouncements2 ---
@@ -2516,12 +2330,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -2592,12 +2400,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END FinancialCalendar ---
@@ -2666,12 +2468,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -2742,12 +2538,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END AnnualReport ---
@@ -2816,12 +2606,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -2892,12 +2676,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END RegulatoryReportsAndCompanyDisclosures ---
@@ -2966,12 +2744,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -3042,12 +2814,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END AnalystCoverageAndConsensus ---
@@ -3116,12 +2882,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -3192,12 +2952,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END ShareholderCentre ---
@@ -3266,12 +3020,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -3342,12 +3090,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END AboutQuilterPlcShares ---
@@ -3416,12 +3158,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -3492,12 +3228,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END Dividends ---
@@ -3566,12 +3296,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -3642,12 +3366,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END FrequentlyAskedQuestions ---
@@ -3716,12 +3434,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -3792,12 +3504,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END ManageYourShareholding ---
@@ -3866,12 +3572,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -3942,12 +3642,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END ReturnOfCapital2022 ---
@@ -4016,12 +3710,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -4092,12 +3780,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END DebtHolderCentre2 ---
@@ -4166,12 +3848,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -4242,12 +3918,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END ShareBuyback202020222 ---
@@ -4316,12 +3986,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -4392,12 +4056,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END Back3 ---
@@ -4466,12 +4124,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -4542,12 +4194,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END Careers ---
@@ -4616,12 +4262,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -4692,12 +4332,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END Careers2 ---
@@ -4766,12 +4400,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -4842,12 +4470,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END Back5 ---
@@ -4916,12 +4538,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -4992,12 +4608,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END Shareholders ---
@@ -5066,12 +4676,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -5142,12 +4746,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END AnalystOrInstitutionalInvestor ---
@@ -5216,12 +4814,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -5292,12 +4884,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END CustomerOrAdviser ---
@@ -5366,12 +4952,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -5442,12 +5022,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END OtherBusinessAreas ---
@@ -5516,12 +5090,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -5592,12 +5160,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END ProcurementAndSupplierManagement ---
@@ -5666,12 +5228,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -5742,12 +5298,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END QuilterPlc ---
@@ -5816,12 +5366,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -5892,12 +5436,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END QuilterCheviot ---
@@ -5966,12 +5504,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -6042,12 +5574,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END QuilterFinancialPlanning ---
@@ -6116,12 +5642,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -6192,12 +5712,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END QuilterInvestors ---
@@ -6266,12 +5780,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -6342,12 +5850,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END Link3 ---
@@ -6416,12 +5918,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -6492,12 +5988,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END Quiltercom ---
@@ -6566,12 +6056,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -6642,12 +6126,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END TermsOfUse ---
@@ -6716,12 +6194,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -6792,12 +6264,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END CookieNotice ---
@@ -6866,12 +6332,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -6942,12 +6402,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END CorporateAndRegulatoryInformation ---
@@ -7016,12 +6470,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -7092,12 +6540,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END ModernSlaveryStatement ---
@@ -7167,12 +6609,6 @@ namespace YourProject.PageObjects
             {
                 return false; // Not present within the short wait
             }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
-            }
         }
 
         // --- END Suppliers ---
@@ -7241,12 +6677,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
@@ -7320,7 +6750,9 @@ namespace YourProject.PageObjects
              catch (StaleElementReferenceException)
             {
                  // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
+                 try {
+                     return _driver.FindElement({locatorFieldName}).Displayed; 
+                     }
                  catch { return false; } // Still stale or gone
             }
         }
@@ -7391,12 +6823,6 @@ namespace YourProject.PageObjects
             catch (WebDriverTimeoutException)
             {
                 return false; // Not present within the short wait
-            }
-             catch (StaleElementReferenceException)
-            {
-                 // Element was found but became stale, try finding again briefly
-                 try { return _driver.FindElement({locatorFieldName}).Displayed; }
-                 catch { return false; } // Still stale or gone
             }
         }
 
