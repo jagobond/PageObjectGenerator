@@ -1,0 +1,95 @@
+#===============================================================================
+# .NET / C# / Visual Studio / Rider / VS Code
+#-------------------------------------------------------------------------------
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+
+# IDE-specific folders
+.vs/
+.idea/
+.vscode/
+
+# NuGet packages folder (older style, good to keep)
+packages/
+
+# Build server cache and files
+*.nupkg
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.assets.json
+
+# Test results and code coverage
+TestResults/
+*.trx
+*.coverlet.json
+*.codecoverage
+
+# Roslyn files
+*.cache
+
+# Temporary files and directories generated at build time
+*.Generated.cs # If using source generators, review if specific generated files *should* be committed
+*.g.cs
+*.g.i.cs
+
+# Rider specific temporary files
+*.sln.iml
+
+# Visual Studio Code files
+*.code-workspace
+
+# ReSharper / Rider specific
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# BenchmarkDotNet results
+BenchmarkDotNet.Artifacts/
+
+# Service Fabric specific files - uncomment if needed
+# ApplicationParameters/
+# Pagkage/
+
+#-------------------------------------------------------------------------------
+# Operating System Files
+#-------------------------------------------------------------------------------
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+#-------------------------------------------------------------------------------
+# Logs
+#-------------------------------------------------------------------------------
+*.log
+logs/
+
+#-------------------------------------------------------------------------------
+# PageObjectGenerator Specific Output (Optional)
+#-------------------------------------------------------------------------------
+# If you might temporarily output generated .cs files within this project's
+# directory structure for testing purposes, you might add a specific output
+# directory here. Avoid general *.cs rules as they would ignore your source!
+# Example:
+# output/
+# GeneratedPages/
+
+#===============================================================================
